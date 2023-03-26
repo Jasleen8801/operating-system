@@ -24,6 +24,7 @@ int main()
         cin >> processes[i].pid;
         cout << "Enter the memory required: ";
         cin >> processes[i].memory;
+        cout << endl;
     }
     cout << endl;
 
@@ -35,7 +36,7 @@ int main()
 
     for (int i = 0; i < noOfProcessesToBeTerminated; i++)
     {
-        cout << "Enter the process id: ";
+        cout << "Enter the process id of the process to be terminated: ";
         cin >> processesToBeTerminated[i];
     }
     cout << endl;
