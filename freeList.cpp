@@ -1,15 +1,48 @@
+/****************************************************
+    MEMORY MANAGEMENT - FREE LIST ALGORITHM
+*****************************************************
+
+Made by: 	 Jasleen Kaur
+Roll NO.:    102118064
+Group:       BS-3
+Course No:   UCT401
+Course Name: Operating Systems
+Thapar Institute of Engineering and Technology, Patiala
+
+****************************************************/
+
+/* FREE LIST ALGORITHM
+
+Free list algorithm is a memory management algorithm that is used to allocate the memory to the processes.
+It is a non-contiguous memory allocation algorithm.
+
+The free list algorithm is used to allocate the memory to the processes in the following ways:
+1. First fit
+2. Best fit
+3. Worst fit
+
+****************************************************/
+
+// C++ code for Free list algorithm implementation
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
+
 using namespace std;
 
 int main()
 {
     int n;
+
+    // Taking the input from the user
     cout << "Enter the number of processes in free list: ";
     cin >> n;
+
+
     vector<int> freeList(n);
     vector<int> wastage(n);
+    
     for (int i = 0; i < n; i++)
     {
         cout << "Enter the process id: ";
@@ -26,22 +59,25 @@ int main()
 
         if (requirement == 0)
         {
+            // If the requirement is zero then no process is allocated in the memory
             cout << "Requirement is zero so no process is allocated in the memory" << endl;
             cout << "Do you want to continue? (Y/N): ";
             cin >> continueOption;
             continue;
         }
 
-        bool processAllocated = false;
+        bool processAllocated = false; // To check if the process is allocated or not
 
         for (int i = 0; i < n; i++)
         {
             if (freeList[i] >= requirement)
+            // If the process is allocated then the wastage is calculated
             {
                 processAllocated = true;
                 wastage[i] = freeList[i] - requirement;
             }
             else
+            // If the process is not allocated then the wastage is set to -1
             {
                 wastage[i] = -1;
             }
@@ -49,13 +85,14 @@ int main()
 
         if (!processAllocated)
         {
+            // If the process is not allocated then the requirement is greater than the size available in the memory
             cout << "Requirement is greater than the size available in the memory" << endl;
             cout << "Do you want to continue? (Y/N): ";
             cin >> continueOption;
             continue;
         }
 
-        // The code for First fit
+        // The code for First fit - The first process that is allocated is the first fit
         cout << "First fit" << endl;
         for (int i = 0; i < n; i++)
         {
@@ -66,7 +103,7 @@ int main()
             }
         }
 
-        // The code for Best fit
+        // The code for Best fit - The process that is allocated with the least wastage is the best fit
         cout << "Best fit" << endl;
         int index = -1;
         int wastage1 = INT_MAX;
@@ -83,7 +120,7 @@ int main()
             cout << "Process " << freeList[index] << " is allocated to the user" << endl;
         }
 
-        // The code for Worst fit
+        // The code for Worst fit - The process that is allocated with the most wastage is the worst fit
         cout << "Worst fit" << endl;
         int wastage2 = -1;
         index = -1;
@@ -95,11 +132,14 @@ int main()
                 index = i;
             }
         }
+
         if (index >= 0)
+        // If the index is greater than or equal to zero then the process is allocated
         {
             cout << "Process " << freeList[index] << " is allocated to the user" << endl;
         }
 
+        // Asking the user if he wants to continue or not
         cout << "Do you want to continue? (Y/N): ";
         cin >> continueOption;
 

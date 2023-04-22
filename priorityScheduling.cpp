@@ -1,65 +1,77 @@
-#include <iostream>
-#include <queue>
-#include <vector>
-#include <algorithm>
-#include <iomanip>
-
+#include<bits/stdc++.h>
+#include<vector>
+#include<algorithm>
 using namespace std;
 
-struct Process
-{
+struct Process {
     int pid;
     int arrivalTime;
     int burstTime;
-    int waitingTime = 0;
-    int turnAroundTime = 0;
-    int startTime = -1;
     int priority;
-    int finishTime = -1;
+    int remainingTime;
 };
 
-void priorityScheduling(vector<Process> &processes)
-{
-    // Sort the processes based on their arrival time and priority number
-    sort(processes.begin(), processes.end(), [](Process p1, Process p2)
-         {
-        if (p1.arrivalTime == p2.arrivalTime) {
-            return p1.priority < p2.priority;
+bool compare(Process a, Process b) {
+    return a.arrivalTime < b.arrivalTime;
+}
+
+int main() {
+    int n;
+    cout << "Enter the number of processes: ";
+    cin >> n;
+    vector<Process> processes(n);
+
+    for(int i = 0; i < n; i++) {
+        cout << "Enter the arrival time, burst time and priority of process " << i + 1 << ": ";
+        cin >> processes[i].arrivalTime >> processes[i].burstTime >> processes[i].priority;
+        processes[i].pid = i + 1;
+        processes[i].remainingTime = processes[i].burstTime;
+    }
+    
+    sort(processes.begin(), processes.end(), compare);
+
+    vector<Process> readyQueue;
+
+    int time = 0;
+
+    Process currentProcess = processes[0];
+
+    while(!processes.empty()) {
+        for(auto it = processes.begin(); it != processes.end(); it++) {
+            if(it->arrivalTime <= time) {
+                readyQueue.push_back(*it);
+                processes.erase(it);
+            }
+            else {
+                ++it;
+            }
         }
-        return p1.arrivalTime < p2.arrivalTime; });
 
-    // Create a priority queue to store the processes
-    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
-    int currentTime = 0;
+        sort(readyQueue.begin(), readyQueue.end(), compare);
 
-    // Execute the processes in the priority queue
-    while (!processes.empty() || !processes.empty())
-    {
-        // Add the processes that have arrived and not yet executed to the priority queue
-        Process p = processes.front();
-        pq.push({p.priority, p.pid});
-        processes.erase(processes.begin());
-
-        // If no processes have arrived yet, advance time to the arrival time of the next process
-        if (pq.empty())
-        {
-            currentTime = processes.front().arrivalTime;
+        if(currentProcess.remainingTime == 0) {
+            cout << "Process " << currentProcess.pid << " completed at time " << time << endl;
+            if(!readyQueue.empty()) {
+                currentProcess = readyQueue[0];
+                readyQueue.erase(readyQueue.begin());
+            }
         }
 
-        // Execute the processes in the priority queue
-        int pid = pq.top().second;
-        pq.pop();
-
-        Process &p = processes[pid - 1];
-        p.waitingTime = currentTime - p.startTime;
-
-        // Update the start time and finish time of the process if it is the first time it is being executed
-        if (p.startTime == -1)
-        {
-            p.startTime = currentTime;
+        if(!readyQueue.empty() && readyQueue[0].priority < currentProcess.priority) {
+            cout<<"Process "<<currentProcess.pid<<" preempted at time "<<time<<endl;
+            readyQueue.push_back(currentProcess);
+            sort(readyQueue.begin(), readyQueue.end(), compare);
+            currentProcess = readyQueue[0];
+            readyQueue.erase(readyQueue.begin());
         }
-        currentTime += p.burstTime;
-        p.finishTime = currentTime;
-        p.turnAroundTime = p.finishTime - p.arrivalTime;
+
+        currentProcess.remainingTime--;
+
+        time++;
+    }
+
+    for(auto p : processes) {
+        int turnAroundTime = time - p.arrivalTime;
+        int waitingTime = turnAroundTime - p.burstTime;
     }
 }
