@@ -1,0 +1,9 @@
+The erase character: [Ctrl-h] or Delete
+The line-kill character: [Ctrl-u]
+The interrupt character: [Ctrl-c] ot Delete
+Lock the keyboard: [Ctrl-s]
+Release keyboard: [Ctrl-q]
+Quit character: [Ctrl-\]
+Suspend Character: [Ctrl-z]
+Alternative to enter: [Ctrl-j] or [Ctrl-m]
+Restoring terminal to normal status: stty sane
