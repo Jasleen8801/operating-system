@@ -45,16 +45,16 @@ int main() {
                 initial_head_pos = requests[right];
             }
             right--;
-        }
-
-        if(direction == "left") {
-            total_head_movement += initial_head_pos - requests[0];
-        }
-        else if(direction == "right") {
-            total_head_movement += requests[num_requests - 1] - initial_head_pos;
-        }
-
-        cout << "Total head movement: " << total_head_movement << endl;
-        return 0;
+        }    
     }
+
+    if(direction == "left") {
+        total_head_movement += initial_head_pos - requests[0];
+    } 
+    else if(direction == "right") {
+        total_head_movement += requests[num_requests - 1] - initial_head_pos;
+    }
+
+    cout << "Total head movement: " << total_head_movement << endl;
+    return 0;
 }

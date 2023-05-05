@@ -48,14 +48,14 @@ int main() {
     }
 
     if(direction == "left") {
-        total_head_movement += disk_size - 1 - requests[left - 1];
+        total_head_movement += requests[left - 1];
         for(int i = left - 2; i >= 0; i--) {
             total_head_movement += requests[i + 1] - requests[i];
         }
     } 
     else if(direction == "right") {
-        total_head_movement += requests[right + 1];
-        for(int i = right + 2; i < num_requests; i++) {
+        total_head_movement += disk_size - 1 - requests[right + 1];
+        for(int i = right + 1; i < num_requests; i++) {
             total_head_movement += requests[i] - requests[i - 1];
         }
     }
