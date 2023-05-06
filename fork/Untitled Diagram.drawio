@@ -1,9 +1,470 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T09:18:28.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.2.9" etag="zuNWN8nReAtSAS98MZrL" type="github">
-  <diagram name="Page-1" id="n-T6Z2SwB9WFmexpbQXP">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-05-06T10:51:12.063Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="AuUqddX6QtnLI-g1g4N0" version="21.2.9" type="github">
+  <diagram name="fork1" id="n-T6Z2SwB9WFmexpbQXP">
+    <mxGraphModel dx="1956" dy="4384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry y="-3300" width="1690" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-19" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork();&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork();&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; fork();&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;glass=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-2900" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-20" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork();&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#0000cc&quot;&gt;&lt;b&gt;fork();&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; fork();&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;glass=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-3060" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-21" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork();&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;fork();&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork();&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;glass=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-2900" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-22" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork();&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; fork();&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; fork();&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;glass=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-2740" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-23" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork();&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;fork();&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork();&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;glass=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-3220" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-24" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork();&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; fork();&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; fork();&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;glass=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-2900" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-25" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork();&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; fork();&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; fork();&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;glass=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-3060" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-26" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork();&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; fork();&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; fork();&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;glass=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-3220" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.071;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="_hOwi2jFLmL-xiZk49cl-20" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="-2850" as="sourcePoint" />
+            <mxPoint x="280" y="-3030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="-2850" />
+              <mxPoint x="260" y="-2850" />
+              <mxPoint x="260" y="-3010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.429;exitY=0.429;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.071;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" source="_hOwi2jFLmL-xiZk49cl-19" target="_hOwi2jFLmL-xiZk49cl-21" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="-2840" as="sourcePoint" />
+            <mxPoint x="510" y="-2890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.429;exitY=0.571;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.071;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" source="_hOwi2jFLmL-xiZk49cl-19" target="_hOwi2jFLmL-xiZk49cl-22" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="-2840" as="sourcePoint" />
+            <mxPoint x="510" y="-2890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="-2820" />
+              <mxPoint x="260" y="-2660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.071;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="_hOwi2jFLmL-xiZk49cl-24" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="-2820" as="sourcePoint" />
+            <mxPoint x="510" y="-2790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.357;exitY=0.429;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.071;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" source="_hOwi2jFLmL-xiZk49cl-20" target="_hOwi2jFLmL-xiZk49cl-23" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="-3040" as="sourcePoint" />
+            <mxPoint x="510" y="-3090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="-3000" />
+              <mxPoint x="470" y="-3160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.357;exitY=0.571;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.071;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" source="_hOwi2jFLmL-xiZk49cl-20" target="_hOwi2jFLmL-xiZk49cl-25" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="-3040" as="sourcePoint" />
+            <mxPoint x="510" y="-3090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.071;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="_hOwi2jFLmL-xiZk49cl-26" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="-3140" as="sourcePoint" />
+            <mxPoint x="630" y="-3190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-34" value="&lt;h1 style=&quot;font-size: 39px;&quot;&gt;&lt;u&gt;Program 1&lt;/u&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial; font-size: 30px;&quot;&gt;#include &amp;lt;sys/types.h&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;int main()&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;{&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; fork();&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; fork();&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; fork();&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="-3240" width="420" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;glass=0;shadow=1;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry y="-2520" width="1690" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="_hOwi2jFLmL-xiZk49cl-51" value="&lt;h1 style=&quot;font-size: 39px;&quot;&gt;&lt;u&gt;Program 2&lt;/u&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial; font-size: 30px;&quot;&gt;#include &amp;lt;sys/types.h&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;int main()&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;{&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;if (fork() || fork()) {&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="-2460" width="420" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="AfsoYC_I6ct6XfzKFGbZ-1" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (&lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;b&gt;()&lt;/b&gt;&lt;/font&gt; || fork()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-2210" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AfsoYC_I6ct6XfzKFGbZ-2" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;fork&lt;/b&gt;&lt;b style=&quot;&quot;&gt;()&lt;/b&gt;&lt;/font&gt; || &lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-2210" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AfsoYC_I6ct6XfzKFGbZ-3" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;fork&lt;/b&gt;&lt;b style=&quot;&quot;&gt;()&lt;/b&gt;&lt;/font&gt; || &lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-2210" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AfsoYC_I6ct6XfzKFGbZ-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.222;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="AfsoYC_I6ct6XfzKFGbZ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="-2170" as="sourcePoint" />
+            <mxPoint x="310" y="-2220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="-2260" />
+              <mxPoint x="480" y="-2260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AfsoYC_I6ct6XfzKFGbZ-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="AfsoYC_I6ct6XfzKFGbZ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="-2170" as="sourcePoint" />
+            <mxPoint x="670" y="-2340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="-2260" />
+              <mxPoint x="750" y="-2260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AfsoYC_I6ct6XfzKFGbZ-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;glass=0;shadow=1;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry y="-1790" width="1690" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="AfsoYC_I6ct6XfzKFGbZ-8" value="&lt;h1 style=&quot;font-size: 39px;&quot;&gt;&lt;u&gt;Program 3&lt;/u&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial; font-size: 30px;&quot;&gt;#include &amp;lt;sys/types.h&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;int main()&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;{&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;i&lt;/font&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;f (fork() &amp;amp;&amp;amp; fork()) {&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="-1720" width="420" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="D9pswoj5GID19S1d8rHs-1" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (&lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;b&gt;()&lt;/b&gt;&lt;/font&gt;&amp;nbsp;&amp;amp;&amp;amp; &lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-1570" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="D9pswoj5GID19S1d8rHs-2" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;fork&lt;/b&gt;&lt;b style=&quot;&quot;&gt;()&lt;/b&gt;&lt;/font&gt; || fork()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-1570" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="D9pswoj5GID19S1d8rHs-3" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (fork() || &lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-1410" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="D9pswoj5GID19S1d8rHs-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.222;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="D9pswoj5GID19S1d8rHs-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="-1530" as="sourcePoint" />
+            <mxPoint x="350" y="-1580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="-1620" />
+              <mxPoint x="520" y="-1620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9pswoj5GID19S1d8rHs-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.611;exitY=0.286;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="D9pswoj5GID19S1d8rHs-1" target="D9pswoj5GID19S1d8rHs-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="-1530" as="sourcePoint" />
+            <mxPoint x="710" y="-1700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="-1540" />
+              <mxPoint x="420" y="-1540" />
+              <mxPoint x="420" y="-1420" />
+              <mxPoint x="570" y="-1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9pswoj5GID19S1d8rHs-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;glass=0;shadow=1;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry y="-1060" width="1690" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="cRYU8FFeSn8MCy32bVAA-18" value="&lt;h1 style=&quot;font-size: 39px;&quot;&gt;&lt;u&gt;Program 4&lt;/u&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial; font-size: 30px;&quot;&gt;#include &amp;lt;sys/types.h&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;int main()&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;{&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;if (fork() || fork() &amp;amp;&amp;amp; fork()) {&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="-1040" width="420" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="u41uW-t19Xeim7CK96Hh-1" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if (&lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt; || fork() &amp;amp;&amp;amp; fork()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-780" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="u41uW-t19Xeim7CK96Hh-2" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if (&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt; || &lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt; &amp;amp;&amp;amp; &lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-780" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="u41uW-t19Xeim7CK96Hh-3" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if (&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt; || &lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt; &amp;amp;&amp;amp; fork()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-890" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="u41uW-t19Xeim7CK96Hh-4" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if (&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt; || fork() &amp;amp;&amp;amp; &lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-670" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="u41uW-t19Xeim7CK96Hh-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.222;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="u41uW-t19Xeim7CK96Hh-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="-740" as="sourcePoint" />
+            <mxPoint x="260" y="-790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="-810" />
+              <mxPoint x="410" y="-810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u41uW-t19Xeim7CK96Hh-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.444;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="u41uW-t19Xeim7CK96Hh-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="-740" as="sourcePoint" />
+            <mxPoint x="500" y="-790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="-910" />
+              <mxPoint x="650" y="-910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u41uW-t19Xeim7CK96Hh-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.778;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="u41uW-t19Xeim7CK96Hh-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="-740" as="sourcePoint" />
+            <mxPoint x="560" y="-790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="-740" />
+              <mxPoint x="570" y="-680" />
+              <mxPoint x="700" y="-680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lvM0FmqbpbgHPclqENI--8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;glass=0;shadow=1;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry y="-320" width="1690" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="lvM0FmqbpbgHPclqENI--9" value="&lt;h1 style=&quot;font-size: 39px;&quot;&gt;&lt;u&gt;Program 5&lt;/u&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial; font-size: 30px;&quot;&gt;#include &amp;lt;sys/types.h&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;int main()&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;{&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;if (fork() &amp;amp;&amp;amp; fork() || fork()) {&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="-300" width="420" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="lvM0FmqbpbgHPclqENI--24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;glass=0;shadow=1;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry y="420" width="1690" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="lvM0FmqbpbgHPclqENI--25" value="&lt;h1 style=&quot;font-size: 39px;&quot;&gt;&lt;u&gt;Program 6&lt;/u&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial; font-size: 30px;&quot;&gt;#include &amp;lt;sys/types.h&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;int main()&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;{&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;if (fork() || fork() || fork()) {&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="440" width="420" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="8GJ6wSF5h7fxkznbGFDV-1" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if (&lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&amp;amp;&amp;amp; &lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt; || fork()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-40" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8GJ6wSF5h7fxkznbGFDV-2" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if (&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&amp;amp;&amp;amp; fork() || &lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-150" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8GJ6wSF5h7fxkznbGFDV-3" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if (fork()&amp;nbsp;&amp;amp;&amp;amp; &lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt; || &lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="70" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8GJ6wSF5h7fxkznbGFDV-4" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if (&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&amp;amp;&amp;amp; fork() || &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;fork()&lt;/b&gt;&lt;/font&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-150" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8GJ6wSF5h7fxkznbGFDV-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.278;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="8GJ6wSF5h7fxkznbGFDV-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" as="sourcePoint" />
+            <mxPoint x="290" y="-50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="-160" />
+              <mxPoint x="470" y="-160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8GJ6wSF5h7fxkznbGFDV-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="8GJ6wSF5h7fxkznbGFDV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" as="sourcePoint" />
+            <mxPoint x="340" y="-50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" />
+              <mxPoint x="410" y="60" />
+              <mxPoint x="510" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8GJ6wSF5h7fxkznbGFDV-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.778;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="8GJ6wSF5h7fxkznbGFDV-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="-110" as="sourcePoint" />
+            <mxPoint x="610" y="-160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="-160" />
+              <mxPoint x="770" y="-160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8GJ6wSF5h7fxkznbGFDV-8" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if (fork()&amp;nbsp;&amp;amp;&amp;amp; &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;fork()&lt;/b&gt;&lt;/font&gt; || &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;fork()&lt;/b&gt;&lt;/font&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="70" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8GJ6wSF5h7fxkznbGFDV-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.778;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="8GJ6wSF5h7fxkznbGFDV-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="110" as="sourcePoint" />
+            <mxPoint x="610" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="60" />
+              <mxPoint x="770" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WUCRdK-FmPy7Rmn6JyzC-1" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if (&lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;&amp;nbsp;||&amp;nbsp;fork() || fork()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="600" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="WUCRdK-FmPy7Rmn6JyzC-2" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if (&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;&amp;nbsp;||&amp;nbsp;&lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt; || fork()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="600" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="WUCRdK-FmPy7Rmn6JyzC-3" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if (&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;&amp;nbsp;||&amp;nbsp;&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork() &lt;/font&gt;&lt;/b&gt;|| &lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="600" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="WUCRdK-FmPy7Rmn6JyzC-4" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if (&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;&amp;nbsp;||&amp;nbsp;&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork() &lt;/font&gt;&lt;/b&gt;|| &lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="760" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="WUCRdK-FmPy7Rmn6JyzC-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.278;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WUCRdK-FmPy7Rmn6JyzC-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="640" as="sourcePoint" />
+            <mxPoint x="300" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="580" />
+              <mxPoint x="480" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WUCRdK-FmPy7Rmn6JyzC-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.444;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WUCRdK-FmPy7Rmn6JyzC-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="640" as="sourcePoint" />
+            <mxPoint x="560" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="580" />
+              <mxPoint x="730" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WUCRdK-FmPy7Rmn6JyzC-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.722;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WUCRdK-FmPy7Rmn6JyzC-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="640" as="sourcePoint" />
+            <mxPoint x="830" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="640" />
+              <mxPoint x="870" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WUCRdK-FmPy7Rmn6JyzC-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;glass=0;shadow=1;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry y="1160" width="1690" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="WUCRdK-FmPy7Rmn6JyzC-9" value="&lt;h1 style=&quot;font-size: 39px;&quot;&gt;&lt;u&gt;Program 7&lt;/u&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial; font-size: 30px;&quot;&gt;#include &amp;lt;sys/types.h&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;int main()&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;{&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;if (fork() &amp;amp;&amp;amp; fork() &amp;amp;&amp;amp; fork()) {&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="1180" width="445" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="MQKipoOjQ0i6aSyk5vjC-1" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if (&lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&amp;amp;&amp;amp; &lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt; &amp;amp;&amp;amp; &lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1465" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MQKipoOjQ0i6aSyk5vjC-2" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if (&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&amp;amp;&amp;amp; fork() &amp;amp;&amp;amp; fork()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1295" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MQKipoOjQ0i6aSyk5vjC-3" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if (&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&amp;amp;&amp;amp; &lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt; &amp;amp;&amp;amp; fork()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1465" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MQKipoOjQ0i6aSyk5vjC-4" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if (&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&amp;amp;&amp;amp; &lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt; &amp;amp;&amp;amp; &lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1635" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MQKipoOjQ0i6aSyk5vjC-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.278;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="MQKipoOjQ0i6aSyk5vjC-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="1505" as="sourcePoint" />
+            <mxPoint x="460" y="1455" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="1285" />
+              <mxPoint x="650" y="1285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQKipoOjQ0i6aSyk5vjC-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.556;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="MQKipoOjQ0i6aSyk5vjC-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="1505" as="sourcePoint" />
+            <mxPoint x="510" y="1455" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="1455" />
+              <mxPoint x="700" y="1455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQKipoOjQ0i6aSyk5vjC-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.833;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="MQKipoOjQ0i6aSyk5vjC-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="1505" as="sourcePoint" />
+            <mxPoint x="560" y="1455" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="1505" />
+              <mxPoint x="580" y="1625" />
+              <mxPoint x="750" y="1625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQKipoOjQ0i6aSyk5vjC-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;glass=0;shadow=1;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry y="1900" width="1690" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="MQKipoOjQ0i6aSyk5vjC-9" value="&lt;h1 style=&quot;font-size: 39px;&quot;&gt;&lt;u&gt;Program 8&lt;/u&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial; font-size: 30px;&quot;&gt;#include &amp;lt;sys/types.h&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial; font-size: 30px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;int main()&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;{&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;if(fork()) {&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Begin world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if(fork() || fork()) {&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial; font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="1900" width="445" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="rCLWjIilTS2orDjeIvMl-1" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if(&lt;font color=&quot;#0000cc&quot;&gt;&lt;b&gt;fork()&lt;/b&gt;&lt;/font&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Begin world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if(fork() || fork()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="2105" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rCLWjIilTS2orDjeIvMl-2" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if(&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Begin world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if(&lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt; || fork()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="2105" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rCLWjIilTS2orDjeIvMl-3" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if(&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Begin world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if(&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt; || &lt;font color=&quot;#0000cc&quot;&gt;&lt;b&gt;fork()&lt;/b&gt;&lt;/font&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="2105" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rCLWjIilTS2orDjeIvMl-4" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if(&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Begin world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if(&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt; || &lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="2315" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rCLWjIilTS2orDjeIvMl-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0.222;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="rCLWjIilTS2orDjeIvMl-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="2145" as="sourcePoint" />
+            <mxPoint x="260" y="2095" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="2095" />
+              <mxPoint x="450" y="2095" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rCLWjIilTS2orDjeIvMl-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="2175" as="sourcePoint" />
+            <mxPoint x="670" y="2195" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="2175" />
+              <mxPoint x="610" y="2195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rCLWjIilTS2orDjeIvMl-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="2175" as="sourcePoint" />
+            <mxPoint x="730" y="2385" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="860" y="2175" />
+              <mxPoint x="860" y="2385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rCLWjIilTS2orDjeIvMl-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;glass=0;shadow=1;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry y="2700" width="1690" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="rCLWjIilTS2orDjeIvMl-9" value="&lt;h1 style=&quot;font-size: 39px;&quot;&gt;&lt;u&gt;Program 9&lt;/u&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial; font-size: 30px;&quot;&gt;#include &amp;lt;sys/types.h&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial; font-size: 30px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;int main()&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;{&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;if(fork()) {&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Begin world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if(fork() &amp;amp;&amp;amp; fork()) {&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial; font-size: 30px;&quot;&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="2700" width="445" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="-L7UvaEnCRZmlJHmpNIv-1" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if(&lt;font color=&quot;#0000cc&quot;&gt;&lt;b&gt;fork()&lt;/b&gt;&lt;/font&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Begin world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if(fork() &amp;amp;&amp;amp; fork()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="3010" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-L7UvaEnCRZmlJHmpNIv-2" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if(&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Begin world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if(&lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt; &amp;amp;&amp;amp; &lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="3010" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-L7UvaEnCRZmlJHmpNIv-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0.222;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="-L7UvaEnCRZmlJHmpNIv-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="3050" as="sourcePoint" />
+            <mxPoint x="260" y="3000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="3000" />
+              <mxPoint x="450" y="3000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L7UvaEnCRZmlJHmpNIv-4" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if(&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Begin world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if(&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt; &amp;amp;&amp;amp; fork()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="2890" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-L7UvaEnCRZmlJHmpNIv-5" value="&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if(&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Begin world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if(fork() &amp;amp;&amp;amp; &lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;fork()&lt;/font&gt;&lt;/b&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; printf(&quot;Hello world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Bye world!\n&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="3100" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-L7UvaEnCRZmlJHmpNIv-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.2;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0.389;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-L7UvaEnCRZmlJHmpNIv-2" target="-L7UvaEnCRZmlJHmpNIv-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="3080" as="sourcePoint" />
+            <mxPoint x="550" y="3030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="3080" />
+              <mxPoint x="630" y="2970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L7UvaEnCRZmlJHmpNIv-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.55;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="-L7UvaEnCRZmlJHmpNIv-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="3090" as="sourcePoint" />
+            <mxPoint x="550" y="3040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="3090" />
+              <mxPoint x="630" y="3170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
