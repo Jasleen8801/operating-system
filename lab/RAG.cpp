@@ -12,12 +12,11 @@ Thapar Institute of Engineering and Technology, Patiala
 ****************************************************/
 
 /* RESOURCE ALLOCATION GRAPH (RAG)
+A resource allocation graph (RAG) is a directed graph that represents the resource allocation requirements of a set of processes. It is used to determine if a set of processes is safe or not.
 
-A resource allocation graph (RAG) is a directed graph that represents the resource allocation
-requirements of a set of processes. It is used to determine if a set of processes is safe or not.
+A RAG is created by adding an edge from a process to a resource if the process needs the resource. An edge is also added from a resource to a process if the resource is available.
 
-A RAG is created by adding an edge from a process to a resource if the process needs the resource.
-An edge is also added from a resource to a process if the resource is available.
+This implementation takes an adjacency matrix as input and creates a wait-for graph from it. The wait-for graph is then checked for cycles using DFS. If a cycle is found, the wait-for graph is not safe and the program outputs "Wait-for graph contains a cycle". Otherwise, the wait-for graph is safe and the program outputs "Wait-for graph does not contain a cycle".
 
 ****************************************************/
 
@@ -28,111 +27,99 @@ An edge is also added from a resource to a process if the resource is available.
 
 using namespace std;
 
-// functiion to check if RAG contains a cycle
-bool isCyclic(vector<vector<int>> &graph, vector<int> &color, int v) {
-    color[v] = 1; // mark current node as visited
+// function to create ait-for graph from adjacency matrix
+vector<vector<int>> createWaitForGraph(vector<vector<int>> &adjacencyMatrix, int n) {
+    vector<vector<int>> waitForGraph(n, vector<int>(n)); 
+
+    // iterate through adjacency matrix
+    for(int i = 0; i < n; i++) 
+        for(int j = 0; j < n; j++)
+            if(adjacencyMatrix[i][j] > 0) // if edge exists
+                waitForGraph[i][j] = 1; // add edge from process to resource
+
+    return waitForGraph;
+}
+
+// function to check if wait-for graph contains a cycle
+bool isCyclic(vector<vector<int>> &graph, vector<int> &visited, int v) {
+    visited[v] = 1; // mark current node as visited
 
     // iterate through all adjacent nodes
     for(int i = 0; i < graph[v].size(); i++) {
         int u = graph[v][i]; // get adjacent node
 
         // if adjacent node is not visited, check if it contains a cycle
-        if(color[u] == 0) {
-            if(isCyclic(graph, color, u)) {
+        if(visited[u] == 0) 
+            if(isCyclic(graph, visited, u)) 
                 return true;
-            }
-        }
-
+        
         // if adjacent node is visited, then there is a cycle
-        else if(color[u] == 1) {
+        else if(visited[u] == 1) 
             return true;
-        }
     }
 
-    color[v] = 2; // mark current node as processed
+    visited[v] = 2; // mark current node as processed
     return false; // no cycle found
 }
 
-// function to check if RAG is safe
-bool isSafe(vector<vector<int>> &allocation, vector<vector<int>> &max, vector<int> &available, int n, int m) {
-    vector<vector<int>> need(n, vector<int>(m)); // need matrix
-
-    // calculate need matrix
-    for(int i = 0; i < n; i++) {
-        for(int j = 0; j < m; j++) {
-            need[i][j] = max[i][j] - allocation[i][j];
-        }
-    }
-
-    // create the resource allocation graph
-    vector<vector<int>> graph(n + m, vector<int>());
-    for(int i = 0; i < n; i++) {
-        for(int j = 0; j < m; j++) {
-            // add edges from the available resources to the processes that need them
-            if(available[j] >= need[i][j]) {
-                graph[n + j].push_back(i);
-            }
-
-            // add edges from the processes to the resources they need
-            if(need[i][j] > 0) {
-                graph[i].push_back(n + j);
-            }
-        }
-    }
-
-    // check if RAG contains a cycle
-    vector<int> color(n + m, 0); // 0 = not visited, 1 = visited, 2 = processed
-    for(int i = 0; i < n + m; i++) {
-        if(color[i] == 0) {
-            if(isCyclic(graph, color, i)) {
-                return false; // RAG contains a cycle
-            }
-        }
-    }
-
-    return true; // RAG does not contain a cycle
-}
-
 int main() {
-    int n, m;
+    int n;
 
-    // taking input from user
+    // get number of processes
     cout << "Enter number of processes: ";
     cin >> n;
-    cout << "Enter number of resources: ";
-    cin >> m;
 
-    // create allocation, max and available matrices
-    vector<vector<int>> allocation(n, vector<int>(m));
-    vector<vector<int>> max(n, vector<int>(m));
-    vector<int> available(m);
+    // create adjacency matrix
+    vector<vector<int>> adjacencyMatrix(n, vector<int>(n));
+    cout << "Enter the adjacency matrix: " << endl;
+    for(int i = 0; i < n; i++) 
+        for(int j = 0; j < n; j++)
+            cin >> adjacencyMatrix[i][j];
 
-    cout << "Enter allocation matrix: " << endl;
+    // create wait-for graph
+    vector<vector<int>> waitForGraph = createWaitForGraph(adjacencyMatrix, n);
+
+    // check if wait-for graph contains a cycle
+    vector<int> visited(n); // 0 = not visited, 1 = visited, 2 = processed
+    bool isCycle = false;
+    for(int i = 0; i < n; i++) 
+        if(visited[i] == 0) 
+            if(isCyclic(waitForGraph, visited, i)) {
+                isCycle = true;
+                break;
+            }
+
+    // print result
+    if(isCycle) 
+        cout << "Wait-for graph contains a cycle." << endl;
+    else 
+        cout << "Wait-for graph does not contain a cycle." << endl;
+
+    // print wait-for graph
+    cout << "Wait-for graph: " << endl;
     for(int i = 0; i < n; i++) {
-        for(int j = 0; j < m; j++) {
-            cin >> allocation[i][j];
-        }
-    }
-
-    cout << "Enter max matrix: " << endl;
-    for(int i = 0; i < n; i++) {
-        for(int j = 0; j < m; j++) {
-            cin >> max[i][j];
-        }
-    }
-
-    cout << "Enter available matrix: " << endl;
-    for(int i = 0; i < m; i++) {
-        cin >> available[i];
-    }
-
-    // check if RAG is safe
-    if(isSafe(allocation, max, available, n, m)) {
-        cout << "RAG is safe" << endl;
-    }
-    else {
-        cout << "RAG is not safe" << endl;
+        cout << i << ": ";
+        for(int j = 0; j < n; j++)
+            cout << waitForGraph[i][j] << " ";
+        cout << endl;
     }
 
     return 0;
 }
+
+/*********************************************************
+
+OUTPUT:
+
+Enter number of processes: 3
+Enter the adjacency matrix: 
+0 1 0
+0 0 1
+0 0 0
+Wait-for graph does not contain a cycle.
+Wait-for graph: 
+0: 0 1 0 
+1: 0 0 1 
+2: 0 0 0
+
+*/

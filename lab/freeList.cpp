@@ -1,29 +1,3 @@
-/****************************************************
-    MEMORY MANAGEMENT - FREE LIST ALGORITHM
-*****************************************************
-
-Made by: 	 Jasleen Kaur
-Roll NO.:    102118064
-Group:       BS-3
-Course No:   UCT401
-Course Name: Operating Systems
-Thapar Institute of Engineering and Technology, Patiala
-
-****************************************************/
-
-/* FREE LIST ALGORITHM
-
-Free list algorithm is a memory management algorithm that is used to allocate the memory to the processes.
-It is a non-contiguous memory allocation algorithm.
-
-The free list algorithm is used to allocate the memory to the processes in the following ways:
-1. First fit
-2. Best fit
-3. Worst fit
-
-****************************************************/
-
-// C++ code for Free list algorithm implementation
 
 #include <iostream>
 #include <vector>

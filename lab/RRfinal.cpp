@@ -215,3 +215,69 @@ int main()
     cout << "Average Waiting Time: " << avgWT << endl;
     cout << "Average Response Time: " << avgRT << endl;
 }
+
+/*******************************************************
+ * WITH SAME ARRIVAL TIME                             *
+
+INPUT:
+Enter the number of processes: 4
+Enter the time quantum: 3
+Enter the arrival time of process 1: 0
+Enter the burst time of process 1: 4
+Enter the arrival time of process 2: 0
+Enter the burst time of process 2: 3
+Enter the arrival time of process 3: 0
+Enter the burst time of process 3: 2
+Enter the arrival time of process 4: 0
+Enter the burst time of process 4: 1
+
+OUTPUT:
+
+Gantt Chart
++----+---+--+-+
+| -- P2 --  -- P3 --  -- P4 --  -- P1 --
+#P      AT      BT      ST      CT      TAT     WT      RT   
+
+1       0       4       0       10      10      6       0    
+2       0       3       3       6       6       3       3    
+3       0       2       6       8       8       6       6    
+4       0       1       8       9       9       8       8
+
+Average Turn Around Time: 8.25
+Average Waiting Time: 5.75
+Average Response Time: 4.25
+
+ * WITH DIFFERENT ARRIVAL TIME                       *
+
+INPUT:
+Enter the number of processes: 5
+Enter the time quantum: 2
+Enter the arrival time of process 1: 0
+Enter the burst time of process 1: 5
+Enter the arrival time of process 2: 1
+Enter the burst time of process 2: 4
+Enter the arrival time of process 3: 2
+Enter the burst time of process 3: 3
+Enter the arrival time of process 4: 3
+Enter the burst time of process 4: 2
+Enter the arrival time of process 5: 4
+Enter the burst time of process 5: 1
+
+OUTPUT:
+
+Gantt Chart
++-----+----+---+--+-+
+| -- P4 --  -- P5 --  -- P2 --  -- P3 --  -- P1 --
+#P      AT      BT      ST      CT      TAT     WT      RT   
+
+1       0       5       0       15      15      10      0    
+2       1       4       2       13      12      8       1    
+3       2       3       4       14      12      9       2    
+4       3       2       8       10      7       5       5    
+5       4       1       10      11      7       6       6    
+
+Average Turn Around Time: 10.6
+Average Waiting Time: 7.6
+Average Response Time: 2.8
+
+*******************************************************/
