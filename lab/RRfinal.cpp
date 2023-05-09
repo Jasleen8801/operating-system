@@ -13,12 +13,9 @@ Thapar Institute of Engineering and Technology, Patiala
 
 /* ROUND ROBIN CPU SCHEDULING
 
-It is a preemptive scheduling algorithm in which each process is given a time slice called a quantum
-to execute before it is interrupted and next process is selected.
+It is a preemptive scheduling algorithm in which each process is given a time slice called a quantum to execute before it is interrupted and next process is selected.
 
-The algorithm works by maintaining a queue of ready processes and scheduling each process for a
-quantum. If the process completes before the quantum, it is removed from the queue. If the process
-does not complete before the quantum, it is moved to the end of the queue.
+The algorithm works by maintaining a queue of ready processes and scheduling each process for a quantum. If the process completes before the quantum, it is removed from the queue. If the process does not complete before the quantum, it is moved to the end of the queue.
 
 ****************************************************/
 

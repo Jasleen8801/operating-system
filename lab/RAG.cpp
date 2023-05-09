@@ -1,5 +1,5 @@
 /****************************************************
-    RESOURCE ALLOCATION GRAPH (RAG) IMPLEMENTATION USING DFS
+    RESOURCE ALLOCATION GRAPH (RAG) IMPLEMENTATION
 *****************************************************
 
 Made by: 	 Jasleen Kaur
@@ -16,18 +16,16 @@ A resource allocation graph (RAG) is a directed graph that represents the resour
 
 A RAG is created by adding an edge from a process to a resource if the process needs the resource. An edge is also added from a resource to a process if the resource is available.
 
-This implementation takes an adjacency matrix as input and creates a wait-for graph from it. The wait-for graph is then checked for cycles using DFS. If a cycle is found, the wait-for graph is not safe and the program outputs "Wait-for graph contains a cycle". Otherwise, the wait-for graph is safe and the program outputs "Wait-for graph does not contain a cycle".
-
 ****************************************************/
 
-// C++ code for Resource Allocation Graph (RAG) implementation using DFS
+// C++ code for Resource Allocation Graph (RAG) implementation using adjacency matrix
 
 #include <iostream>
 #include <vector>
 
 using namespace std;
 
-// function to create ait-for graph from adjacency matrix
+// function to create wait-for graph from adjacency matrix
 vector<vector<int>> createWaitForGraph(vector<vector<int>> &adjacencyMatrix, int n) {
     vector<vector<int>> waitForGraph(n, vector<int>(n)); 
 
